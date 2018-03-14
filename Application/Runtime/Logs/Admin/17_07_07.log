@@ -1,0 +1,144 @@
+[ 2017-07-07T09:04:43+08:00 ] 106.91.205.133 /muge/index.php/Admin/Manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-07-07T09:04:45+08:00 ] 106.91.205.133 /muge/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T09:05:12+08:00 ] 106.91.205.133 /muge/index.php/Admin/login/logincheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gw_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gw_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = 'd93a5def7511da3d0f2d171d9c344e91' AND `mg_open` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wwwroot\muge\Application\Common\Common\function.php 第 495 行.
+NOTIC: [8] Undefined offset: 2 D:\wwwroot\muge\Application\Admin\Controller\LoginController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `gw_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `gw_log` (`log_lang`,`log_ipdz`,`log_ipadds`,`log_browser`,`log_os`,`log_time`,`log_mg_id`) VALUES ('简体中文','106.91.205.133','中国-香港-','Firefox(54.0)','Windows 7','1499389512','3') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T09:05:13+08:00 ] 106.91.205.133 /muge/index.php/Admin/Manager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gw_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gw_role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gw_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gw_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gw_auth` WHERE (  auth_level=0  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gw_auth` WHERE (  auth_level=1  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T09:05:13+08:00 ] 106.91.205.133 /muge/index.php/Admin/Manager/index_v1.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-07-07T09:05:18+08:00 ] 106.91.205.133 /muge/index.php/Admin/News/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gw_manager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gw_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gw_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gw_news` INNER JOIN gw_showtype ON gw_news.news_showtype_id = gw_showtype.showtype_id  ORDER BY news_id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T09:06:01+08:00 ] 106.91.205.133 /muge/index.php/Admin/News/article/news_id/67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gw_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gw_manager` WHERE `mg_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gw_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gw_role` WHERE `role_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gw_news` WHERE `news_id` = 67 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
